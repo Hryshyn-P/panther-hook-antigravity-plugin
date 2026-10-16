@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "api": {
+      "serverUrl": "https://ph-mcp-gw-9qryt8yw.ew.gateway.dev/mcp"
+    }
+  }
+}

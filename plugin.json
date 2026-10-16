@@ -1,0 +1,5 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "panther-hook",
+  "description": "Panther Hook lead-capture workflows: forms, submissions, integrations and troubleshooting through scoped OAuth MCP and five reusable skills."
+}
