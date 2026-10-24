@@ -49,3 +49,6 @@ The branded assets under assets/ are distribution artwork; current official plug
 Only the files in this plugin directory are permitted in the standalone distribution. From the private backend repository, run pnpm antigravity:check to reproduce the ZIP in integrations/google/build/. Review the ZIP file inventory and checksum before publishing to an independently approved public repository. No GitHub repository is created or made public by this build command.
 
 Provider instructions: https://antigravity.google/docs/plugins, https://antigravity.google/docs/mcp, https://antigravity.google/docs/marketplace.
+## CRM workflows (HubSpot, Pipedrive, Zoho CRM)
+
+The existing shared MCP Gateway discovers generic CRM tools for HubSpot, Pipedrive and Zoho after a compatible server release. No provider-specific server or extra credentials belong in this plugin. A workspace Owner/Admin completes CRM OAuth through the browser. Use `list_crm_connections`, `get_crm_fields`, `list_crm_mappings`, and the generic integration/delivery tools; Zoho accepts `module: Leads | Contacts`. Creating destinations and disconnecting providers remain protected by Human Approval. Connection and provider availability depend on the installed server version and the workspace; do not claim live Zoho access until verified. For guidance, see the public /docs/zoho-guide page after its release.
